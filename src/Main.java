@@ -25,8 +25,8 @@ public class Main extends Application{
 			
             public void handle(long currentNanoTime){
      
-            	model.updateIteratively();
-//            	model.updateConditionally();
+//            	model.updateIteratively();
+            	model.updateConditionally();
             	view.drawCanvas();    
             	
             	
